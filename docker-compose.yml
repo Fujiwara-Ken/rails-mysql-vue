@@ -27,5 +27,3 @@ services:
     command: mysqld --character-set-server=utf8mb4 --explicit_defaults_for_timestamp=true --default-authentication-plugin=mysql_native_password
     ports:
       - 3308:3308
-    volumes:
-      - db-data:/var/lib/mysql
