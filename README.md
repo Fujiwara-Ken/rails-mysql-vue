@@ -17,6 +17,9 @@ docker compose up -d
 
 ### ヘルスチェック
 
-そのうち作る
+```bash
+$ curl localhost:3000/api/_healthcheck
+{"message":"OK"}
+```
 
 ### Production build
