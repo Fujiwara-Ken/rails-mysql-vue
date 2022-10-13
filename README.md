@@ -23,3 +23,8 @@ $ curl localhost:3000/api/_healthcheck
 ```
 
 ### Production build
+
+```bash
+$ make image.build
+$ make image.push
+```
